@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Torino21";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Torino21</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Torino21</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,19 +62,19 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/xerjoff.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/torino21.jfif">
 
 <div class="info">
 
 <p><strong>Gênero:</strong> Unissex</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Dia • Calor • Esportes • Uso casual</p>
 
-<p><strong>Fixação:</strong> 8–10h</p>
+<p><strong>Fixação:</strong> 6–8h</p>
 
-<p><strong>Projeção:</strong> 2h média</p>
+<p><strong>Projeção:</strong> 2–3h média</p>
 
 <p><strong>Tipo de pele:</strong> Todas</p>
 
@@ -93,18 +93,27 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/bergamota.png">
-<span>Bergamota</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
-</div>
-
-<div class="nota">
 <img src="/perfumatch/uploads/notas/limao.png">
+
 <span>Limão</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/hortela.png">
+
+<span>Hortelã</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/manjericao.png">
+
+<span>Manjericão</span>
+
 </div>
 
 </div>
@@ -114,18 +123,35 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/cereja.png">
+
+<span>Groselha Preta</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/rosa.png">
-<span>Rosa</span>
-</div>
 
-<div class="nota">
 <img src="/perfumatch/uploads/notas/jasmim.png">
+
 <span>Jasmim</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/lavanda.png">
+
+<span>Lavanda</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/alecrim.png">
+
+<span>Alecrim</span>
+
 </div>
 
 </div>
@@ -135,18 +161,19 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/almiscar.png">
+
+<span>Almíscar</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/sandalo.png">
-<span>Sândalo</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/cedro.png">
-<span>Cedro</span>
+<img src="/perfumatch/uploads/notas/notasverdes.png">
+
+<span>Verbena</span>
+
 </div>
 
 </div>
@@ -161,7 +188,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 2.200 – R$ 3.200
 
 </div>
 
@@ -233,16 +260,18 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Torino21 é uma fragrância extremamente fresca, energética e vibrante, perfeita para dias quentes e momentos de atividade. A abertura combina o frescor intenso do limão e da hortelã com o toque herbal do manjericão, criando uma sensação de limpeza gelada e revigorante. No coração, a groselha preta, o jasmim, a lavanda e o alecrim acrescentam um perfil aromático elegante e sofisticado. A base de almíscar e verbena mantém a fragrância limpa, leve e refrescante, tornando Torino21 uma excelente escolha para esportes, uso casual e ocasiões ao ar livre.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Perfumes cítricos extremamente frescos e energéticos</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias aromáticas e refrescantes para dias quentes</li>
+
+<li>Perfumes esportivos e casuais com sensação de limpeza gelada</li>
 
 </ul>
 

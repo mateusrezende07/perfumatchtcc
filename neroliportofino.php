@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Neroli Portofino";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Neroli Portofino</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Neroli Portofino</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,19 +62,19 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/tom ford.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/neroli portofino.jfif">
 
 <div class="info">
 
 <p><strong>Gênero:</strong> Unissex</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Dia • Calor • Praia • Uso casual</p>
 
-<p><strong>Fixação:</strong> 8–10h</p>
+<p><strong>Fixação:</strong> 5–7h</p>
 
-<p><strong>Projeção:</strong> 2h média</p>
+<p><strong>Projeção:</strong> 1–2h média</p>
 
 <p><strong>Tipo de pele:</strong> Todas</p>
 
@@ -93,18 +93,51 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
+
 <img src="/perfumatch/uploads/notas/bergamota.png">
+
 <span>Bergamota</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
-</div>
 
-<div class="nota">
 <img src="/perfumatch/uploads/notas/limao.png">
+
 <span>Limão</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/laranjaamarga.png">
+
+<span>Laranja Amarga</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/mandarina.png">
+
+<span>Mandarina</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/lavanda.png">
+
+<span>Lavanda</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/alecrim.png">
+
+<span>Alecrim</span>
+
 </div>
 
 </div>
@@ -114,18 +147,27 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/flordelaranjeira.png">
+
+<span>Flor de Laranjeira</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/rosa.png">
-<span>Rosa</span>
+
+<img src="/perfumatch/uploads/notas/neroli.png">
+
+<span>Neroli</span>
+
 </div>
 
 <div class="nota">
+
 <img src="/perfumatch/uploads/notas/jasmim.png">
+
 <span>Jasmim</span>
+
 </div>
 
 </div>
@@ -135,18 +177,27 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/ambar.png">
+
+<span>Âmbar</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/sandalo.png">
-<span>Sândalo</span>
+
+<img src="/perfumatch/uploads/notas/almiscar.png">
+
+<span>Almíscar</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/cedro.png">
-<span>Cedro</span>
+
+<img src="/perfumatch/uploads/notas/angelica.png">
+
+<span>Angélica</span>
+
 </div>
 
 </div>
@@ -161,7 +212,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 1.200 – R$ 2.200
 
 </div>
 
@@ -233,16 +284,18 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Neroli Portofino é uma fragrância cítrica e extremamente refrescante, combinando bergamota, limão, laranja amarga e mandarina com um coração floral de flor de laranjeira, neroli e jasmim. A base de âmbar, almíscar e angélica mantém o perfume elegante e sofisticado, transmitindo uma sensação de frescor luxuoso e clima de verão na costa italiana.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Perfumes cítricos frescos para dias quentes</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias com neroli e flor de laranjeira</li>
+
+<li>Perfumes sofisticados para praia e verão</li>
 
 </ul>
 

@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Ombre Leather";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Ombre Leather</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Ombre Leather</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,19 +62,19 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/tom ford.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/ombre_leather.jfif">
 
 <div class="info">
 
 <p><strong>Gênero:</strong> Unissex</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Noite • Clima ameno/frio • Uso estiloso</p>
 
 <p><strong>Fixação:</strong> 8–10h</p>
 
-<p><strong>Projeção:</strong> 2h média</p>
+<p><strong>Projeção:</strong> 2–3h média-alta</p>
 
 <p><strong>Tipo de pele:</strong> Todas</p>
 
@@ -93,18 +93,11 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/bergamota.png">
-<span>Bergamota</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
-</div>
+<img src="/perfumatch/uploads/notas/cardamomo.png">
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/limao.png">
-<span>Limão</span>
+<span>Cardamomo</span>
+
 </div>
 
 </div>
@@ -114,18 +107,19 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/couro.png">
+
+<span>Couro</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/rosa.png">
-<span>Rosa</span>
-</div>
 
-<div class="nota">
 <img src="/perfumatch/uploads/notas/jasmim.png">
+
 <span>Jasmim</span>
+
 </div>
 
 </div>
@@ -135,18 +129,27 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
+
+<img src="/perfumatch/uploads/notas/ambar.png">
+
+<span>Âmbar</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/musgodecarvalho.png">
+
+<span>Musgo de Carvalho</span>
+
+</div>
+
+<div class="nota">
+
 <img src="/perfumatch/uploads/notas/patchouli.png">
+
 <span>Patchouli</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/sandalo.png">
-<span>Sândalo</span>
-</div>
-
-<div class="nota">
-<img src="/perfumatch/uploads/notas/cedro.png">
-<span>Cedro</span>
 </div>
 
 </div>
@@ -161,7 +164,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 1.200 – R$ 2.200
 
 </div>
 
@@ -233,16 +236,18 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Ombre Leather é uma fragrância de couro moderna e sofisticada, com uma abertura limpa e especiada de cardamomo. No coração, o couro ganha destaque acompanhado pelo jasmim, enquanto a base de âmbar, musgo de carvalho e patchouli traz profundidade e elegância. O resultado é uma fragrância marcante, estilosa e envolvente, perfeita para quem busca transmitir força e sofisticação.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Perfumes de couro modernos e sofisticados</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias marcantes para noites e clima frio</li>
+
+<li>Perfumes elegantes com presença forte e estilosa</li>
 
 </ul>
 

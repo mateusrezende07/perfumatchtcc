@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Renaissance";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Renaissance</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Renaissance</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,17 +62,17 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/xerjoff.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/renaissance.jfif">
 
 <div class="info">
 
 <p><strong>Gênero:</strong> Unissex</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Dia • Calor • Uso sofisticado</p>
 
-<p><strong>Fixação:</strong> 8–10h</p>
+<p><strong>Fixação:</strong> 6–7h</p>
 
 <p><strong>Projeção:</strong> 2h média</p>
 
@@ -93,18 +93,35 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/bergamota.png">
-<span>Bergamota</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
-</div>
-
-<div class="nota">
 <img src="/perfumatch/uploads/notas/limao.png">
+
 <span>Limão</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/bergamota.png">
+
+<span>Bergamota</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/laranja.png">
+
+<span>Laranja</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/toranja.png">
+
+<span>Tangerina</span>
+
 </div>
 
 </div>
@@ -114,18 +131,27 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/hortela.png">
+
+<span>Hortelã</span>
+
 </div>
 
 <div class="nota">
+
+<img src="/perfumatch/uploads/notas/lirio.png">
+
+<span>Lírio</span>
+
+</div>
+
+<div class="nota">
+
 <img src="/perfumatch/uploads/notas/rosa.png">
-<span>Rosa</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/jasmim.png">
-<span>Jasmim</span>
+<span>Rosa</span>
+
 </div>
 
 </div>
@@ -135,18 +161,35 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/almiscar.png">
+
+<span>Almíscar</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/sandalo.png">
-<span>Sândalo</span>
-</div>
 
-<div class="nota">
 <img src="/perfumatch/uploads/notas/cedro.png">
+
 <span>Cedro</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/patchouli.png">
+
+<span>Patchouli</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/ambar.png">
+
+<span>Âmbar</span>
+
 </div>
 
 </div>
@@ -161,7 +204,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 2.200 – R$ 3.200
 
 </div>
 
@@ -233,16 +276,18 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Renaissance é uma fragrância cítrica, fresca e sofisticada, com uma abertura vibrante e luminosa de limão, bergamota, laranja e tangerina. No coração, a hortelã traz uma sensação refrescante e herbal, equilibrada pela delicadeza floral do lírio e da rosa. A base combina almíscar, cedro, patchouli e âmbar, criando profundidade e elegância sem perder a leveza. É uma fragrância extremamente natural, refinada e versátil, perfeita para dias quentes e momentos em que se busca frescor com sofisticação.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Perfumes cítricos frescos e sofisticados</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias verdes e herbais para dias quentes</li>
+
+<li>Perfumes elegantes e versáteis para uso diurno</li>
 
 </ul>
 

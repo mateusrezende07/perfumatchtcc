@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Real King Absolu";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Real King Absolu</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Real King Absolu</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,15 +62,15 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/nuancielo.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/real king absolu.jfif">
 
 <div class="info">
 
-<p><strong>Gênero:</strong> Unissex</p>
+<p><strong>Gênero:</strong> Masculino</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Dia • Noite • Assinatura</p>
 
 <p><strong>Fixação:</strong> 8–10h</p>
 
@@ -98,13 +98,29 @@ color:gold;
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
+<img src="/perfumatch/uploads/notas/toranja.png">
+<span>Toranja</span>
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/limao.png">
-<span>Limão</span>
+<img src="/perfumatch/uploads/notas/pimentarosa.png">
+<span>Pimenta Rosa</span>
+</div>
+
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/abacaxi.png">
+<span>Abacaxi</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/nozmoscada.png">
+<span>Noz Moscada</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/cravo.png">
+<span>Cravo-da-Índia</span>
 </div>
 
 </div>
@@ -114,18 +130,28 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+<img src="/perfumatch/uploads/notas/gengibre.png">
+<span>Gengibre</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/notasverdes.png">
+<span>Cidra</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/canela.png">
+<span>Canela</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/cardamomo.png">
+<span>Cardamomo</span>
 </div>
 
 <div class="nota">
 <img src="/perfumatch/uploads/notas/rosa.png">
 <span>Rosa</span>
-</div>
-
-<div class="nota">
-<img src="/perfumatch/uploads/notas/jasmim.png">
-<span>Jasmim</span>
 </div>
 
 </div>
@@ -140,13 +166,38 @@ color:gold;
 </div>
 
 <div class="nota">
+<img src="/perfumatch/uploads/notas/vetiver.png">
+<span>Vetiver</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/musgodecarvalho.png">
+<span>Musgo de Carvalho</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/ambroxan.png">
+<span>Ambroxan</span>
+</div>
+
+<div class="nota">
 <img src="/perfumatch/uploads/notas/sandalo.png">
 <span>Sândalo</span>
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/cedro.png">
-<span>Cedro</span>
+<img src="/perfumatch/uploads/notas/almiscar.png">
+<span>Almíscar</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/favatonka.png">
+<span>Tonka</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/absinto.png">
+<span>Evernil</span>
 </div>
 
 </div>
@@ -161,7 +212,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 200 – R$ 209
 
 </div>
 
@@ -233,16 +284,16 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Real King Absolu é um frutado amadeirado sofisticado que combina frutas vibrantes, especiarias refinadas e uma base elegante de madeiras, ambroxan e musgo de carvalho. Inspirado no Creed Aventus Absolu, entrega excelente versatilidade, alta qualidade e um aroma marcante que rende muitos elogios tanto durante o dia quanto à noite.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Creed Aventus Absolu</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias frutadas amadeiradas premium</li>
 
 </ul>
 

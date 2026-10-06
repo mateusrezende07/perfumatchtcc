@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Silver Mountain Water";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Silver Mountain Water</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Silver Mountain Water</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,19 +62,19 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/creed.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/silver mountain water.jfif">
 
 <div class="info">
 
 <p><strong>Gênero:</strong> Unissex</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Dia • Calor • Uso casual • Trabalho</p>
 
-<p><strong>Fixação:</strong> 8–10h</p>
+<p><strong>Fixação:</strong> 6–8h</p>
 
-<p><strong>Projeção:</strong> 2h média</p>
+<p><strong>Projeção:</strong> 2–4h</p>
 
 <p><strong>Tipo de pele:</strong> Todas</p>
 
@@ -93,18 +93,19 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
+
 <img src="/perfumatch/uploads/notas/bergamota.png">
+
 <span>Bergamota</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/limao.png">
-<span>Limão</span>
+<img src="/perfumatch/uploads/notas/mandarina.png">
+
+<span>Mandarina</span>
+
 </div>
 
 </div>
@@ -114,18 +115,19 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/chadehortela.png">
+
+<span>Chá Verde</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/rosa.png">
-<span>Rosa</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/jasmim.png">
-<span>Jasmim</span>
+<img src="/perfumatch/uploads/notas/groselhapreta.png">
+
+<span>Groselha Preta</span>
+
 </div>
 
 </div>
@@ -135,19 +137,29 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/almiscar.png">
+
+<span>Almíscar</span>
+
 </div>
 
 <div class="nota">
+
 <img src="/perfumatch/uploads/notas/sandalo.png">
+
 <span>Sândalo</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/cedro.png">
-<span>Cedro</span>
+
+<img src="/perfumatch/uploads/notas/laranja.png">
+
+<span>Petitgrain</span>
+
 </div>
+
 
 </div>
 
@@ -161,7 +173,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 2.000 – R$ 3.200
 
 </div>
 
@@ -233,16 +245,18 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Silver Mountain Water é uma fragrância extremamente fresca, limpa e refinada, com uma sensação de ar gelado das montanhas. A abertura cítrica de bergamota e mandarina combina perfeitamente com o chá verde e a groselha preta, enquanto a base de almíscar, sândalo, petitgrain e gálbano traz profundidade e sofisticação. É uma excelente escolha para dias quentes, trabalho e uso casual.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Perfumes frescos e limpos para dias quentes</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias cítricas com sensação de pureza</li>
+
+<li>Perfumes sofisticados para trabalho e uso casual</li>
 
 </ul>
 

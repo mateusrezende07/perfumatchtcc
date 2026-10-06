@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Noir Extreme Parfum";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Noir Extreme Parfum</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Noir Extreme Parfum</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,15 +62,15 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/tom ford.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/noir extreme parfum.jfif">
 
 <div class="info">
 
-<p><strong>Gênero:</strong> Unissex</p>
+<p><strong>Gênero:</strong> Masculino</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Noite • Encontros • Clima ameno</p>
 
 <p><strong>Fixação:</strong> 8–10h</p>
 
@@ -93,18 +93,35 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/bergamota.png">
-<span>Bergamota</span>
+
+<img src="/perfumatch/uploads/notas/cardamomo.png">
+
+<span>Cardamomo</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
+
+<img src="/perfumatch/uploads/notas/gengibre.png">
+
+<span>Gengibre</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/limao.png">
-<span>Limão</span>
+
+<img src="/perfumatch/uploads/notas/mandarina.png">
+
+<span>Mandarina</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/neroli.png">
+
+<span>Néroli</span>
+
 </div>
 
 </div>
@@ -114,18 +131,27 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
-</div>
 
-<div class="nota">
 <img src="/perfumatch/uploads/notas/rosa.png">
+
 <span>Rosa</span>
+
 </div>
 
 <div class="nota">
+
 <img src="/perfumatch/uploads/notas/jasmim.png">
+
 <span>Jasmim</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/flordelaranjeira.png">
+
+<span>Flor de Laranjeira</span>
+
 </div>
 
 </div>
@@ -135,18 +161,35 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/baunilha.png">
+
+<span>Baunilha</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/sandalo.png">
-<span>Sândalo</span>
+
+<img src="/perfumatch/uploads/notas/ambar.png">
+
+<span>Âmbar</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/cedro.png">
-<span>Cedro</span>
+
+<img src="/perfumatch/uploads/notas/couro.png">
+
+<span>Couro</span>
+
+</div>
+
+<div class="nota">
+
+<img src="/perfumatch/uploads/notas/favatonka.png">
+
+<span>Tonka</span>
+
 </div>
 
 </div>
@@ -161,7 +204,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 1.500 – R$ 2.500
 
 </div>
 
@@ -233,16 +276,18 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Noir Extreme Parfum é uma fragrância doce e especiada, marcada pelo contraste entre cardamomo, gengibre e mandarina na abertura. No coração, o kulfi traz uma faceta cremosa e gourmand, acompanhado por rosa, jasmim e flor de laranjeira. A base combina baunilha, âmbar, couro e tonka, criando uma assinatura quente, sofisticada e extremamente envolvente.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Perfumes doces e especiados para noites</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias gourmand sofisticadas e envolventes</li>
+
+<li>Perfumes marcantes para encontros e ocasiões especiais</li>
 
 </ul>
 

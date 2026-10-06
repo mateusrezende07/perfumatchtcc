@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Real King";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,7 +16,7 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Real King</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
@@ -54,7 +54,7 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Real King</h2>
 
 <div class="perfume-detalhe">
 
@@ -62,15 +62,15 @@ color:gold;
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca" src="/perfumatch/uploads/marcas/nuancielo.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume" src="/perfumatch/uploads/real king.jfif">
 
 <div class="info">
 
-<p><strong>Gênero:</strong> Unissex</p>
+<p><strong>Gênero:</strong> Masculino</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Dia • Noite • Assinatura</p>
 
 <p><strong>Fixação:</strong> 8–10h</p>
 
@@ -97,14 +97,20 @@ color:gold;
 <span>Bergamota</span>
 </div>
 
+
 <div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
+<img src="/perfumatch/uploads/notas/maca.png">
+<span>Maçã</span>
 </div>
 
 <div class="nota">
 <img src="/perfumatch/uploads/notas/limao.png">
 <span>Limão</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/pimentarosa.png">
+<span>Pimenta Rosa</span>
 </div>
 
 </div>
@@ -114,18 +120,18 @@ color:gold;
 <div class="notas">
 
 <div class="nota">
+<img src="/perfumatch/uploads/notas/abacaxi.png">
+<span>Abacaxi</span>
+</div>
+
+<div class="nota">
 <img src="/perfumatch/uploads/notas/patchouli.png">
 <span>Patchouli</span>
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/rosa.png">
-<span>Rosa</span>
-</div>
-
-<div class="nota">
 <img src="/perfumatch/uploads/notas/jasmim.png">
-<span>Jasmim</span>
+<span>Jasmim Marroquino</span>
 </div>
 
 </div>
@@ -134,14 +140,20 @@ color:gold;
 
 <div class="notas">
 
+
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+<img src="/perfumatch/uploads/notas/almiscar.png">
+<span>Almíscar</span>
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/sandalo.png">
-<span>Sândalo</span>
+<img src="/perfumatch/uploads/notas/musgodecarvalho.png">
+<span>Musgo de Carvalho</span>
+</div>
+
+<div class="nota">
+<img src="/perfumatch/uploads/notas/ambroxan.png">
+<span>Ambroxan</span>
 </div>
 
 <div class="nota">
@@ -161,7 +173,7 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 200 – R$ 209
 
 </div>
 
@@ -233,16 +245,16 @@ Faça login para favoritar
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+Real King é inspirado no lendário Creed Aventus e combina frutas cítricas e suculentas com um coração refinado de abacaxi e patchouli. A base amadeirada de vidoeiro, musgo de carvalho, cedro e ambroxan entrega um perfume elegante, versátil e extremamente elogiado, ideal tanto para o dia quanto para a noite.
 </p>
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Creed Aventus</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Perfumes frutados amadeirados de luxo</li>
 
 </ul>
 

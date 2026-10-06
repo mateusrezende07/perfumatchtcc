@@ -3,7 +3,7 @@ require_once("../includes/conexao.php");
 require_once("../includes/header.php");
 
 // PERFUME
-$perfume_nome = "Patchouli";
+$perfume_nome = "Ombre Nomade";
 
 // LOGIN
 $logado = isset($_SESSION['usuario_id']);
@@ -16,34 +16,34 @@ $logado = isset($_SESSION['usuario_id']);
 
 <meta charset="UTF-8">
 
-<title>Patchouli</title>
+<title>Ombre Nomade</title>
 
 <link rel="stylesheet" href="/perfumatch/includes/style.css">
 <link rel="stylesheet" href="/perfumatch/perfumes/perfumes.css">
 
 <style>
 
-.estrelas-input{
-display:flex;
-flex-direction:row-reverse;
-justify-content:center;
+.estrelas-input {
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content:center;
 }
 
-.estrelas-input input{
-display:none;
+.estrelas-input input {
+  display:none;
 }
 
-.estrelas-input label{
-font-size:30px;
-color:#444;
-cursor:pointer;
-transition:.2s;
+.estrelas-input label {
+  font-size:30px;
+  color:#444;
+  cursor:pointer;
+  transition:0.2s;
 }
 
 .estrelas-input input:checked ~ label,
 .estrelas-input label:hover,
-.estrelas-input label:hover ~ label{
-color:gold;
+.estrelas-input label:hover ~ label {
+  color:gold;
 }
 
 </style>
@@ -54,27 +54,30 @@ color:gold;
 
 <div class="conteudo-principal">
 
-<h2 class="titulo-centro">Patchouli</h2>
+<h2 class="titulo-centro">Ombre Nomade</h2>
 
 <div class="perfume-detalhe">
+
 
 <!-- ESQUERDA -->
 
 <div class="bloco">
 
-<img class="logo-marca" src="/perfumatch/uploads/marcas/phebo.png">
+<img class="logo-marca"
+src="/perfumatch/uploads/marcas/lv.png">
 
-<img class="img-perfume" src="/perfumatch/uploads/patchouli.jfif">
+<img class="img-perfume"
+src="/perfumatch/uploads/ombre nomade.jfif">
 
 <div class="info">
 
 <p><strong>Gênero:</strong> Unissex</p>
 
-<p><strong>Ocasião:</strong> Noite • Clima ameno • Clima frio</p>
+<p><strong>Ocasião:</strong> Noite • Frio • Ocasiões marcantes</p>
 
-<p><strong>Fixação:</strong> 8–10h</p>
+<p><strong>Fixação:</strong> 12h+</p>
 
-<p><strong>Projeção:</strong> 2h média</p>
+<p><strong>Projeção:</strong> 2–5h alta</p>
 
 <p><strong>Tipo de pele:</strong> Todas</p>
 
@@ -82,76 +85,84 @@ color:gold;
 
 </div>
 
+
 <!-- CENTRO -->
 
 <div class="bloco">
 
 <h3>Pirâmide Olfativa</h3>
 
+
 <h4>Topo</h4>
 
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/bergamota.png">
-<span>Bergamota</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/laranja.png">
-<span>Laranja</span>
-</div>
+<img src="/perfumatch/uploads/notas/rosa.png">
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/limao.png">
-<span>Limão</span>
+<span>Rosa</span>
+
 </div>
 
 </div>
+
 
 <h4>Coração</h4>
 
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/oud.png">
+
+<span>Oud</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/rosa.png">
-<span>Rosa</span>
-</div>
 
-<div class="nota">
-<img src="/perfumatch/uploads/notas/jasmim.png">
-<span>Jasmim</span>
+<img src="/perfumatch/uploads/notas/benjoim.png">
+
+<span>Benjoim</span>
+
 </div>
 
 </div>
+
 
 <h4>Base</h4>
 
 <div class="notas">
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/patchouli.png">
-<span>Patchouli</span>
+
+<img src="/perfumatch/uploads/notas/incenso.png">
+
+<span>Incenso</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/sandalo.png">
-<span>Sândalo</span>
+
+<img src="/perfumatch/uploads/notas/framboesa.png">
+
+<span>Framboesa</span>
+
 </div>
 
 <div class="nota">
-<img src="/perfumatch/uploads/notas/cedro.png">
-<span>Cedro</span>
-</div>
+
+<img src="/perfumatch/uploads/notas/ambar.png">
+
+<span>Âmbar</span>
 
 </div>
 
 </div>
+
+</div>
+
 
 <!-- DIREITA -->
 
@@ -161,17 +172,21 @@ color:gold;
 
 <div class="preco">
 
-R$ 140 – R$ 290
+R$ 2.800 – R$ 4.000
 
 </div>
+
 
 <h3>Avaliação</h3>
 
 <?php if($logado){ ?>
 
-<form method="POST" action="/perfumatch/includes/votar.php">
+<form method="POST"
+action="/perfumatch/includes/votar.php">
 
-<input type="hidden" name="perfume" value="<?php echo $perfume_nome; ?>">
+<input type="hidden"
+name="perfume"
+value="<?php echo $perfume_nome; ?>">
 
 <div class="estrelas-input">
 
@@ -206,15 +221,20 @@ Faça login para avaliar
 
 <?php } ?>
 
+
 <?php include("../includes/votacao.php"); ?>
+
 
 <h3>Favoritar</h3>
 
 <?php if($logado){ ?>
 
-<form method="POST" action="/perfumatch/favoritar.php">
+<form method="POST"
+action="/perfumatch/favoritar.php">
 
-<input type="hidden" name="perfume" value="<?php echo $perfume_nome; ?>">
+<input type="hidden"
+name="perfume"
+value="<?php echo $perfume_nome; ?>">
 
 <button type="submit">
 ❤️ Favoritar
@@ -230,19 +250,25 @@ Faça login para favoritar
 
 <?php } ?>
 
+
 <h3>Sensação</h3>
 
 <p class="sensacao">
-Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqueza terrosa do patchouli. A abertura cítrica traz luminosidade, enquanto o coração floral adiciona elegância. A base amadeirada reforça a profundidade da composição, tornando-o um perfume clássico, marcante e ideal para quem aprecia aromas encorpados e cheios de personalidade.
+
+Oud intenso, esfumaçado e luxuoso, extremamente marcante e imponente. Uma fragrância profunda e envolvente, com faceta resinosa e frutada, ideal para noites frias e ocasiões em que se deseja muita presença.
+
 </p>
+
 
 <h3>Inspirados</h3>
 
 <ul class="inspirados">
 
-<li>Perfumes clássicos à base de Patchouli</li>
+<li>Perfumes com oud intenso e sofisticado</li>
 
-<li>Fragrâncias amadeiradas terrosas sofisticadas</li>
+<li>Fragrâncias esfumaçadas e luxuosas</li>
+
+<li>Perfumes marcantes para noites frias</li>
 
 </ul>
 
@@ -255,4 +281,5 @@ Patchouli é uma fragrância intensa e sofisticada, construída em torno da riqu
 <script src="/perfumatch/includes/script.js"></script>
 
 </body>
+
 </html>
